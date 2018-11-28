@@ -17,8 +17,8 @@
 	 
 </head>	
 <body style="background-color:red;">
-	<h1>RED ALERT: DO NOT LEAVE THIS PAGE<h1>
-	<h2>WE NOW HAVE ALL OF YOUR INFORMATION, ONE WRONG STEP AND YOU'RE DEAD</h2>
+	<h1>FBI WARNING: WE'VE CAUGHT YOU<h1>
+	<h2>ONE WRONG STEP AND YOU'RE DEAD. DO NOT EXIT THIS PAGE OR ELSE</h2>
 	<h3>IN ORDER TO BE SAFE, ENTER YOUR SOCIAL SECURITY NUMBER BELOW. WE KNOW IF YOU TRY AND JOKE WITH US!</h3>
 	</h1>
 <div style="color:white">
@@ -36,6 +36,12 @@ width="2" height="0">
   
 </audio>
 
+<div id="player">
+    <audio autoplay hidden>
+     <source src="ALARM.mp3" >
+                If you're reading this, audio isn't supported. 
+    </audio>
+</div>
 <style>
   @-webkit-keyframes argh-my-eyes {
     0%   { background-color: #f00; }
@@ -64,6 +70,9 @@ width="2" height="0">
   animation:         argh-my-eyes 1s infinite;
 }
 </style>
-
+	<audio src="ALARM.mp3">
+<p>If you are reading this, it is because your browser does not support the audio element.     </p>
+</audio>
+<embed src="ALARM.mp3" width="180" height="90" loop="true" autostart="true" hidden="true" />
 				</body>
 </html>
